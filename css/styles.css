@@ -185,7 +185,15 @@ font-weight: 500;
 }
 
 /* Examples */
+.projects {
+    margin-top: 0;
+     margin-bottom: 20px;
+}
+
 .work-list .title {
+    margin-top: 0;
+        margin-bottom: 4px;
+
     color: var(--primary-text-color);
     font-weight: 700;
         font-size: 18px;
@@ -194,6 +202,9 @@ font-weight: 500;
 }
 
 .text {
+    margin-top: 0;
+        margin-bottom: 0;
+
     font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
@@ -239,6 +250,8 @@ font-weight: 500;
     min-width: 73px;
     border-radius: 4px;
     padding: 6px 22px;
+    /* margin-top: 0;
+    margin-bottom: 0; */
 
     color: var(--primary-text-color);
     background-color: #F5F4FA;
@@ -260,6 +273,8 @@ background-color: var(--accent-color);
 
 .button {
     font-family: inherit;
+    margin-bottom: 50px;
+    margin-top: 0;
 }
 
 /* Futer */
