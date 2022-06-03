@@ -1,0 +1,251 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3  #FFFFFF*/
+/* цвет текста с прозрачностью rgba(255, 255, 255, 0.6) */
+/* цвет фона (header) #FFFFFF */
+/* второй цвет фона (footer и hero) #2F303A */
+/* третий цвет фона #F5F4FA (command) */
+/* четвертый цвет фона #E5E5E5; */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color:#FFFFFF;
+    --black-color:#000000;
+
+/* цвета фонов */
+    
+--background-color-header: #FFFFFF;
+--background-color-footer-hero: #2F303A;
+--background-color-command: #F5F4FA;
+--background-color: #E5E5E5;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color:var(--background-color);
+    color:var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+        letter-spacing: 0.03em;
+}
+
+/* Header */
+.header-brg {
+    background-color: var(--background-color-header);
+}
+
+/* Logo */
+
+.logo {
+    color: var(--accent-color);
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+}
+
+.black {
+    color: var(--black-color);
+}
+
+.white {
+    color: var(--white-color);
+}
+
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+.contacts .link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    background-color: var(--background-color-footer-hero);
+    color: var(--accent-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+/* Section */
+.section-comand-brg {
+    background-color: var(--background-color-command);
+}
+
+.section-title {
+    color:var(--primary-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+/* Features */
+.feature-list .title {
+    
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+
+.desc-feature {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--secondary-text-color);
+}
+
+/* Command */
+.command-list .title {
+    
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.desc {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+/* Examples */
+.work-list .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        color: var(--secondary-text-color);
+}
+
+.work-list .link {
+    text-decoration: none;
+}
+
+/* Button */
+.button-hero {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        align-items: center;
+        text-align: center;
+     letter-spacing: 0.06em;
+     cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}
+
+.button-list .button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+color: var(--white-color);
+background-color: var(--accent-color);
+}
+
+.button {
+    font-family: inherit;
+}
+
+/* Futer */
+.footer-brg {
+    background-color: var(--background-color-footer-hero);
+}
+
+.address-list .street {
+    color:var(--white-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        text-decoration: none;
+        font-style: normal;
+}
+
+.address-list .e-mail, .tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        text-decoration: none;
+        font-style: normal;
+}
+
+.address-list .street:hover,
+.address-list .street:focus {
+    color: var(--accent-color);
+}
+
+.address-list .e-mail:hover,
+.address-list .e-mail:focus {
+ color: var(--accent-color);
+}
+
+.address-list .tel:hover,
+.address-list .tel:focus {
+    color: var(--accent-color);
+}
